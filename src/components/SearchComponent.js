@@ -38,7 +38,7 @@ const SearchComponent = () => {
   
   //renderizamos la vista
   return (
-    <div>
+    <div className='container'>
         <input value={search} onChange={searcher} type="text" placeholder='Search' className='form-control'/>
         <table className='table table-striped table-hover mt-5 shadow-lg'>
             <thead>

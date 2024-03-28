@@ -40,3 +40,9 @@
 .bg-curso {
  background-color: #8540f5; 
 }
+
+.container {
+  display:block;
+  justify-content: center; /* Centra horizontalmente */  
+  height: 80vh; /* Opcional, ajusta la altura al 100% de la pantalla */
+}
